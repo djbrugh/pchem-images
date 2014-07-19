@@ -3,6 +3,7 @@
 [LaTeX Source](harmonic-oscillator-compressed.tex)
 
 Mass attached to a spring that is compressed to less than its equilibrium length. The mass experiences a restoring force in the x direction consistent with Hooke's Law. 
+
 ![Image](harmonic-oscillator-compressed.png)
 
 # License
