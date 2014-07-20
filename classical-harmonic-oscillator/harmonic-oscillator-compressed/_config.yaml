@@ -1,0 +1,7 @@
+harmonic-oscillator-compressed:
+ title: Compressed Harmonic Oscillator
+ filename: harmonic-oscillator-compressed
+ source: LaTeX Source
+ extension: tex
+ caption: Mass attached to a spring that is compressed to less than its equilibrium length. The mass experiences a restoring force in the positive x direction consistent with Hooke's Law.
+ 
