@@ -1,0 +1,7 @@
+harmonic-oscillator-stretched:
+ title: Stretched Harmonic Oscillator
+ filename: harmonic-oscillator-stretched
+ source: LaTeX Source
+ extension: tex
+ caption: Mass attached to a spring that is stretched beyond its equilibrium length. The mass experiences a restoring force in the negative x direction consistent with Hooke's Law.
+ 

@@ -1,0 +1,33 @@
+\documentclass[tikz]{standalone}
+\usepackage[T1]{fontenc}
+\renewcommand{\rmdefault}{ptm}	% Sets roman font to Times
+\usepackage[scaled=0.92]{helvet}
+\usepackage[subscriptcorrection,slantedGreek,nofontinfo,mtpcal]{mtpro2}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{patterns}
+\begin{document}
+%\begin{tikzpicture}[>=stealth, scale=1.5, every node/.style={scale=1.5}]
+\begin{tikzpicture}[>=stealth, scale=1.5]
+% Spring
+\draw[-,decorate,decoration={coil,segment length=7pt, aspect=0.5, amplitude=5}] (0,0.5) -- (2.1,0.5);
+% Mass on end of spring
+\draw [thick,color=black!50, rounded corners=4mm, fill=green!30] (2,0.02) rectangle (3,1.02);
+\node [above] at (2.52,1.25) {$F_x < 0$};
+\draw [->,color=red!50,very thick] (2.52,1.17) -- (1.5,1.17);
+% Masses m1 and m2 with labels
+%\shade[ball color=black!20] (0.81,1.25) circle (.2cm);
+%\shade[ball color=black!20] (3.12,1.25) circle (.2cm);
+%\node[above] at (0.86,1.45) {$m_1$};
+%\node[above] at (3.18,1.45) {$m_2$};
+% X axis with labels
+\draw[->,thick] (0,0) -- (4,0);
+\draw[thick] (2,0.1) -- (2,-0.1);
+\node[below] at (2,-0.1) {$0$};
+\node[right] at (4,0) {$+x$};
+% Y axis with wall pattern
+\draw[thick] (0,0) -- (0,1.75);
+\draw[pattern=north east lines, pattern color=black!50] (0,0) rectangle (-0.5,1.75);
+\end{tikzpicture}
+\end{document}

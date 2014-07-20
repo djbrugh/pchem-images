@@ -1,0 +1,7 @@
+harmonic-oscillator-equilibrium:
+ title: Harmonic Oscillator at Equilibrium Position
+ filename: harmonic-oscillator-equilibrium
+ source: LaTeX Source
+ extension: tex
+ caption: Mass attached to a spring that is at its equilibrium length. The mass experiences no restoring force.
+ 
